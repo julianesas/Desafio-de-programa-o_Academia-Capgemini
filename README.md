@@ -8,7 +8,7 @@ Este projeto é referente a um desafio de programação realizado pela **Academi
 
 1. Caso queira 'forkar' este repositório para o seu repositório remoto do github
    ```
-   Clique em  "Fork"na [homepage](Link do repositorio) do repositório.
+   Clique em  "Fork"na [homepage](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini) do repositório.
 
 
    Após clonar, caso tenha o git instalado na sua máquina, faça o seguinte comando:
@@ -21,39 +21,39 @@ Este projeto é referente a um desafio de programação realizado pela **Academi
 2. Você também pode clonar diretamente este repositório remoto para a sua máquina
 
    ```
-   git clone [link]
+   git clone https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini.git
 
-   Também é possível baixar o arquivo em formato `.zip` clicando em "Clone" aqui na [homepage]
+   Também é possível baixar o arquivo em formato `.zip` clicando em "Clone" aqui na homepage
 
    ```
 
-3. Para "startar" o script calculadora.js `Parte 1` utilize o Run code do seu VsCode
+3. Para inicializar o script calculadora.js `Parte 1` utilize o Run code do seu VsCode
 
-4. Para "startar" a `Parte 2` utilize a extensão que costuma utilizar no seu VsCode para visualização do index.html no Browser.
+4. Para inicializar a `Parte 2` utilize a extensão que costuma utilizar no seu VsCode para visualização do index.html no Browser.
 
  ```
    Dica de extensão
 
    Baixe a extensão 'Live Server'
 
-   E "start" o projeto clicando com o mouse encima do index com o botão direito e selecione 'Open with Live server'
+   E inicialize o projeto clicando com o mouse encima do index com o botão direito e selecione 'Open with Live server'
 
    ```
 
-5. Estrutura das partas
+5. Estrutura das pastas
 
   ```
-    ├── Parte 1
-    ├───────── calculadora.js
-    ├── Parte 2
-    ├───────── css
-    ├────────────────── style.css
-    ├───────── html 
-    ├────────────────── index.html
-    ├───────── imagens
-    ├───────── js 
-    ├────────────────── calculadora.js
-    ├── README.md
+    ├──| Parte 1
+    ├─────────| calculadora.js
+    ├──| Parte 2
+    ├─────────| css
+    ├──────────────────| style.css
+    ├─────────| html 
+    ├──────────────────| index.html
+    ├─────────| imagens
+    ├─────────| js 
+    ├──────────────────| calculadora.js
+    ├──| README.md
 
    ```
 
@@ -70,20 +70,20 @@ Este programa será composto de duas partes:
 
 ---
  
-#### [Parte 01:](https://github.com/carlaoliveiraads/Desafio-Progamacao-Capgemini/tree/master/Parte%2001)
+#### [Parte 01:](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini/tree/master/Parte%201)
 
 Baseados em dados de análise de anúncios anteriores, a agência tem os seguintes dados:
-1 - a cada 100 pessoas que visualizam o anúncio 12 clicam nele.
-2 - cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
-3 - cada compartilhamento nas redes sociais gera 40 novas visualizações.
-4 - 30 pessoas visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
-5 - o mesmo anúncio é compartilhado no máximo 4 vezes em sequência
+1. a cada 100 pessoas que visualizam o anúncio 12 clicam nele.
+2. cada 20 pessoas que clicam no anúncio 3 compartilham nas redes sociais.
+3. cada compartilhamento nas redes sociais gera 40 novas visualizações.
+4. 30 pessoas visualizam o anúncio original (não compartilhado) a cada R$ 1,00 investido.
+5. o mesmo anúncio é compartilhado no máximo 4 vezes em sequência
 (1ª pessoa -> compartilha -> 2ª pessoa -> compartilha - > 3ª pessoa -> compartilha -> 4ª pessoa)
 
 Crie um script em sua linguagem de programação preferida que receba o valor investido em reais e retorne uma projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)
 
 
-A partir dessas instruções foi criado um script na linguagem javaScript [calculadora.js.]()
+A partir dessas instruções foi criado um script na linguagem javaScript [calculadora.js.](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini/blob/master/Parte%201/calculadora.js)
 
   - Foi criada uma função chamada calculadoraDeanuncios que irá receber o valor em reais.
   - Seguindo as instruções da Parte 1, a calculadoraDeanuncios irá retornar as seguintes dados:
@@ -96,11 +96,11 @@ A partir dessas instruções foi criado um script na linguagem javaScript [calcu
 
 
 ---
-#### [Parte 02]()
+#### [Parte 02](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini/tree/master/Parte%202)
 
 ##### Instruções
 
-1- Foi construído a parte visual da página utilizando a linguagem HTML5 e CSS3 para integrar com o Js. 
+1- Foi construído a parte visual da página utilizando a linguagem HTML5 e CSS3. 
 2- Na página existe um menu de navegaçao com informações sobre o Desafio da Academia Capgemini e sobre a Autora.
 3- A página conterá um formulário de cadastro de anúncios que irá receber os seguintes dados:
 
