@@ -8,7 +8,7 @@ Este projeto é referente a um desafio de programação realizado pela **Academi
 
 1. Caso queira 'forkar' este repositório para o seu repositório remoto do github
    ```
-   Clique em  "Fork"na [homepage](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini) do repositório.
+   Clique em  "Fork"na [homepage](https://github.com/julianesas/Desafio-de-programacao_Academia-Capgemini) do repositório.
 
 
    Após clonar, caso tenha o git instalado na sua máquina, faça o seguinte comando:
@@ -21,7 +21,7 @@ Este projeto é referente a um desafio de programação realizado pela **Academi
 2. Você também pode clonar diretamente este repositório remoto para a sua máquina
 
    ```
-   git clone https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini.git
+   git clone https://github.com/julianesas/Desafio-de-programacao_Academia-Capgemini.git
 
    Também é possível baixar o arquivo em formato `.zip` clicando em "Clone" aqui na homepage
 
@@ -70,7 +70,7 @@ Este programa será composto de duas partes:
 
 ---
  
-#### [Parte 01:](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini/tree/master/Parte%201)
+#### [Parte 01:](https://github.com/julianesas/Desafio-de-programacao_Academia-Capgemini/tree/master/Parte%201)
 
 Baseados em dados de análise de anúncios anteriores, a agência tem os seguintes dados:
 1. a cada 100 pessoas que visualizam o anúncio 12 clicam nele.
@@ -83,7 +83,7 @@ Baseados em dados de análise de anúncios anteriores, a agência tem os seguint
 Crie um script em sua linguagem de programação preferida que receba o valor investido em reais e retorne uma projeção aproximada da quantidade máxima de pessoas que visualizarão o mesmo anúncio (considerando o anúncio original + os compartilhamentos)
 
 
-A partir dessas instruções foi criado um script na linguagem javaScript [calculadora.js.](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini/blob/master/Parte%201/calculadora.js)
+A partir dessas instruções foi criado um script na linguagem javaScript [calculadora.js.](https://github.com/julianesas/Desafio-de-programacao_Academia-Capgemini/blob/master/Parte%201/calculadora.js)
 
   - Foi criada uma função chamada calculadoraDeanuncios que irá receber o valor em reais.
   - Seguindo as instruções da Parte 1, a calculadoraDeanuncios irá retornar as seguintes dados:
@@ -96,7 +96,7 @@ A partir dessas instruções foi criado um script na linguagem javaScript [calcu
 
 
 ---
-#### [Parte 02](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini/tree/master/Parte%202)
+#### [Parte 02](https://github.com/julianesas/Desafio-de-programacao_Academia-Capgemini/tree/master/Parte%202)
 
 ##### Instruções
 
