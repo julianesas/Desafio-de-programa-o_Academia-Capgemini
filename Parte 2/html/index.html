@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Desafio de Progamação - Academia Capgemini</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container_logo">
+                <a  href="">
+                    <img
+                        src="../imagens/logo_capgemini.JPG"
+                        alt="Logo Capgemini"
+                    />
+                </a>
+            </div>
+            <div class="container_menu">
+                <ul>   
+                    <li class="sobre_menu">
+                        <a href="https://www.proway.com.br/academiacapmulheresdesafio" target="_blank">Sobre a Desafio </a>
+                    </li>
+                    <li class="sobre_menu">
+                        <a href="https://www.linkedin.com/in/juliane-andrade-837a05113/" target="_blank">Sobre a Desenvolvedora</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="container_titulo">
+                <h1> Agência Divulga Tudo</h1>
+                <h2>Calcule o valor do seu anúncio e cadastre-o!!!</h2>
+            </div>
+            <div class="container_formulario">
+                <form action="" id='formulario_cadastro'>
+                    <div class="form_sections">
+                        <label for="nome_anuncio">Nome do Anúncio: *</label>
+                        <input id="nome_anuncio" type="text" required>
+                    </div>
+                    <div class="form_sections">
+                        <label for="nome_cliente">Cliente: *</label>
+                        <input id="nome_cliente" type="text" required>
+                    </div>                    
+                    <div class="data_anuncio">
+                        <div class="form_sections">
+                            <label for="data_inicio_anuncio">Data de início do anúncio: *</label>
+                            <input id="data_inicio_anuncio" type="date" required>
+                        </div>
+                        <div class="form_sections" >
+                            <label for="data_termino_anuncio">Data de término do anúncio: *</label>
+                            <input id="data_termino_anuncio" type="date" required>
+                        </div>
+
+                    </div>
+                    <div class="form_sections">
+                        <label for="investimento_anuncio">Valor do investimento por dia: *</label>
+                        <input id="investimento_anuncio" type="number" required>
+                    </div>
+                    <div class="botaos_cadastrar_submeter">
+                        <input type="button" id="btn_calcular" value="Calcular Anúncio"> 
+                    </div>
+                </form>
+            </div>
+            <div class=' relatorio_calculado template_none'>
+                
+
+            </div>
+        </section>
+        <section class='anunciosCadastrados'>
+            <h1>Anuncios Cadastrados</h1>
+            <form action="" id='formulario_filtro'>
+                <div class='formulario_filtroNome'>
+                    <label>Digite o nome do cliente</label>
+                    <input type="text" id="filtroNome" >
+                </div>
+                <div class='formulario_filtroData'>
+                    <label>Data Inicial</label>
+                    <input type="date" id="filtro_data_inicial" required>
+                    <label>Data Final</label>
+                    <input type="date" id="filtro_data_final" required>
+                    <button type="submit" id="botao_filtrar">Filtrar</button>
+                    <button type="submit" id="botao_limpar">Limpar Filtro</button>
+                </div>  
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do Cliente</th>
+                        <th>Nome do Anúncio</th>
+                        <th>Data início</th>
+                        <th>Data final</th>
+                        <th>Valor</th>
+                        <th>Visualizações</th>
+                        <th>cliques</th>
+                        <th>compartilhamento</th>
+                    </tr>
+                </thead>
+                <tbody id="anuncios_cadastrados">
+                    
+
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+    <footer>
+        <div class="rodape_principal ">
+            <div class="rodape_titulo ">
+                <h3>Desenvolvido por <em>Juliane Andrade</em></h3>
+            </div>
+            <div class="rodape_redes-sociais ">
+                <h4>Redes sociais:</h4>
+                <a href="https://www.linkedin.com/in/julianeandrade-837a05113/" target="_blank ">
+                    <img src="../imagens/linkedin.png " alt="Ícone do Linkedin">
+                </a>
+                <a href="https://www.instagram.com/julle_andrade/" target="_blank ">
+                    <img src="../imagens/instagram.png" alt="Ícone do Instagram ">
+                </a>
+                <a href="https://github.com/julianesas" target="_blank ">
+                    <img src="../imagens/github.png" alt="Ícone do Github ">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="rodape__cc ">
+            <p> Copyright © 2021 | Juliane Andrade</p>
+        </div>
+
+    </footer>
+    <script src="../js/calculadora.js"></script>
+</body>
+</html>

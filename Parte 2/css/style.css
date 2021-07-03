@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+header, nav, main, footer {
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: 1px solid  #2376b19a;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 0 5px 5px rgba(27, 87, 129, 0.2);
+    position: fixed;
+}
+
+li, .container_menu, ul{
+    height: 100%;
+
+}
+
+li {
+    list-style: none;
+    font-size: min(1.4rem, 2.5vw); 
+}
+
+ul{
+    display: flex;
+}
+
+.container_logo>a>img{
+    width: 70%;
+    margin: 1rem;
+    min-width: 100px;
+}
+
+.sobre_menu a{
+    font-weight: bolder;
+    height: 100%; 
+    display: block; 
+    text-align: center;
+    padding: 1.5rem;
+    color: #1F64A1;
+}
+
+.sobre_menu a:hover{
+    background-color: #1F64A1;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.container{
+    padding-top: 140px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f64a13b;
+    padding-bottom: 3rem;
+}
+
+.container_titulo h1{
+    color: #1F64A1;
+    font-size: min(1.8rem, 3.5vw); 
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container_titulo h2{
+    color: rgba(245, 160, 1, 0.842);
+    font-size: min(1.5rem, 3vw);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.container_formulario{
+    background-color:  rgb(255, 255, 255);
+    width: 70%;
+    padding: 3rem;
+    font-size: min(1rem, 2.5vw);
+    color: #1f64a1e7;
+    font-weight:bold;
+    border-radius: 15px;
+    box-shadow:  0 0 5px 5px rgba(27, 87, 129, 0.2);
+}
+
+.form_sections{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form_sections>input{
+    border-radius: 7px;
+    background-color: #3083cc38;
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    font-size: min(1rem, 2.2vw);
+}
+
+.data_anuncio{
+    display: flex;
+}
+
+.data_anuncio>div{
+    margin-right: 3rem;
+}
+
+.botaos_cadastrar_submeter{
+    text-align: center;
+}
+
+#btn_calcular, #btn_cadastrar{
+    font-size: min(1rem, 2.3vw);
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+    border: none;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+#btn_calcular{
+    background-color: rgb(231, 153, 6);
+}
+
+#btn_cadastrar{
+    background-color:rgba(54, 177, 64, 0.856);
+}
+
+#btn_calcular:hover {
+    background: orange;
+    transform: translateY(-06px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+#btn_cadastrar:hover {
+    background: #3ace1c;
+    transform: translateY(-06px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.template_calculo_anuncio{
+    background-color:#2f81c9;
+    margin-top: 2rem;
+    color: rgb(255, 249, 249);
+    font-size: min(1.1rem, 2.3vw);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow:  0 0 5px 5px rgba(27, 87, 129, 0.2);
+    text-align: center;
+    width: 75%;
+}
+
+.template_none{
+    display: none;
+}
+
+.relatorio{
+    text-align: left;
+}
+
+.relatorio>p{
+    font-weight: bolder;
+}
+
+strong{
+    color: #ffc401;
+}
+
+.anunciosCadastrados{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anunciosCadastrados h1{
+    font-size: min(1.6rem, 3.4vw);
+    color: #dfae0e;
+}
+
+#formulario_filtro{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top:2rem;
+    flex-wrap: wrap;
+}
+
+.formulario_filtroNome>label,
+.formulario_filtroData>label{
+    color: #4173a0;
+    font-weight: bolder;
+    font-size: min(1rem, 2.2vw);
+
+}
+.formulario_filtroNome>input,
+.formulario_filtroData>input{
+    border-radius: 7px;
+    background-color: #d0dae494;
+    outline: none;
+    border: px solid #4ea0e7;
+    font-size: min(1rem, 2vw);
+}
+
+.formulario_filtroData>button{
+    background-color: rgb(202, 194, 194);
+    font-size: min(0.8rem, 1.5vw);
+    padding: 0.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+    font-weight: bolder;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+footer{
+    background-color:#1F64A1;
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.rodape_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_titulo{
+    font-size: min(1.4rem, 2vw);
+}
+h4{
+    font-size: min(1.4rem, 2.4vw);
+
+}
+
+.rodape_redes-sociais{
+    margin-left:10rem;
+}
+.rodape_redes-sociais>a>img{
+    width: 10%;
+    min-width: 30px;
+    margin: 0.7rem;
+}
+em{
+    color: #ffc401;
+}
+.rodape__cc{
+    font-size: min(1.2rem, 1.8vw);
+
+        
+}
+table {
+    border: 2px solid rgb(248, 242, 242);
+    border-collapse: collapse;
+    background:#83add1;
+    margin-top: 3rem;
+    table-layout: fixed;
+    width: 80%;
+    color: white;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+}
+
+th,
+td {
+    border: 1px solid rgb(28, 123, 185);
+    padding: 0.2rem;
+    word-wrap: break-word;
+    font-size: min(0.9rem, 1.7vw);
+    margin: 0;
+}
+
+th {
+    background: #1F64A1;
+}
+
+@media screen and (max-width: 1030px){
+    #formulario_filtro{
+        
+        justify-content: center;
+        
+    }
+    #formulario_filtro>div{
+        margin-top: 1rem;
+    }
+    .container_formulario{
+        width: 85%;
+    }
+    .template_calculo_anuncio{
+        width: 90%;
+    }
+    table{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 700px){
+    
+    .container_formulario{
+        width: 90%;
+        padding: 1.5rem 1rem;
+    }
+    table{
+        width: 95%;
+    }
+    .rodape_principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rodape_redes-sociais{
+        margin: 0;
+    }
+    #btn_calcular{
+        margin: 0 1rem 0 1rem;
+        padding: 0.7rem;
+    }
+    #formulario_filtro{
+        
+        padding-top:1rem;    
+    }
+    
+    .data_anuncio>div{
+    margin-right: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
