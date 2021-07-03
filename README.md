@@ -8,7 +8,7 @@ Este projeto é referente a um desafio de programação realizado pela **Academi
 
 1. Caso queira 'forkar' este repositório para o seu repositório remoto do github
    ```
-   Clique em  "Fork"na [homepage]('https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini') do repositório.
+   Clique em  "Fork"na [homepage](https://github.com/julianesas/Desafio-de-programa-o_Academia-Capgemini) do repositório.
 
 
    Após clonar, caso tenha o git instalado na sua máquina, faça o seguinte comando:
